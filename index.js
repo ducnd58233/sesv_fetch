@@ -15,10 +15,6 @@ const processHTML = (data) => {
     return data;
 }
 
-const processCSS = (data) => {
-    
-}
-
 async function getAPI() {
     if (confirm("Fetch SESV?")) {
         const response = await fetch(url)
